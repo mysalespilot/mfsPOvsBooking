@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f7f2;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background: #556b2f;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.container-box {
+    padding: 25px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header-custom {
+    background: #556b2f;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #556b2f;
+    box-shadow: 0 0 5px rgba(85, 107, 47, .4);
+}
+
+.btn-primary-custom {
+    background: #556b2f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-primary-custom:hover {
+    background: #3f5222;
+}
+
+.btn-success-custom {
+    background: #3f704d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-success-custom:hover {
+    background: #2f573b;
+}
+
+.table {
+    background: white;
+}
+
+.table thead {
+    background: #556b2f;
+    color: white;
+}
+
+.table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.dashboard-card {
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.po-card {
+    background: #6b8e23;
+}
+
+.booking-card {
+    background: #3f704d;
+}
+
+.dashboard-card h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.dashboard-card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.qty-input {
+    width: 120px;
+}
+
+.required {
+    color: red;
+}
+
+.alert-custom {
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.success-alert {
+    background: #d1e7dd;
+    color: #0f5132;
+}
+
+.error-alert {
+    background: #f8d7da;
+    color: #842029;
+}
